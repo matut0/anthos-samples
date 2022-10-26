@@ -31,7 +31,7 @@ spec:
       # [START anthosbaremetal_pos_deployment_api_server]
       containers:
       - name: api-server
-        image: us-docker.pkg.dev/anthos-dpe-abm-edge-pos/abm-edge-pos-images/api-server:v1
+        image: us-docker.pkg.dev/anthos-dpe-abm-edge-pos/abm-edge-pos-images/api-server:v2
       # [END anthosbaremetal_pos_deployment_api_server]
         env:
         - name: INVENTORY_EP
